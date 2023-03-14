@@ -30,7 +30,7 @@
   <div id="navbar">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ url('/') }}">
           <img src="/img/logo-dark-navy.png" height="50px" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -59,8 +59,8 @@
               <a class="nav-link" href="#">Features</a>
             </li>
             <span class="line">|</span>
-            <button class="btn my-2 my-sm-0 login" onclick="location.href = 'login.html';">Login</button>
-            <button class="btn my-2 my-sm-0 daftar" onclick="location.href = 'register.html';">Daftar</button>
+            <button class="btn my-2 my-sm-0 login" onclick="location.href = '{{ url('/login') }}';">Login</button>
+            <button class="btn my-2 my-sm-0 daftar" onclick="location.href = '{{ url('/register') }}';">Daftar</button>
           </ul>
         </div>
       </div>
