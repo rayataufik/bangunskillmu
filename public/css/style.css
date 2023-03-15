@@ -141,7 +141,11 @@ input[type=text],input[type=email],input[type=password]:focus{
 .card {
     background-color: white;
     border-radius: 0.25rem;
+    margin: auto;
     margin-bottom: 20px;
+}
+.card-body{
+    margin-right: 7rem;
 }
 .card:hover {
     box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -172,6 +176,7 @@ img.card-img-top {
     }
     .card-body{
         padding: 0.8rem;
+        margin-right: 2.5rem;
     }
     .card-title {
         font-size: 0.9rem;
